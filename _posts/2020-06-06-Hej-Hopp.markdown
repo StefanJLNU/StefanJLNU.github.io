@@ -1,10 +1,12 @@
 ---
-layout: macka
+layout: post
 title:  "HEJ OCH HOPP"
 date:   2010-06-06 05:48:55 -0600
 categories: STEFFE Cat-3
 author: "steffe"
 permalink: "/my-new-url/:month"
+comments: true
 ---
 
 HÄR SKRIVER VI EN JÄVLA MASSA TEXT I HEJ HOPP
+
