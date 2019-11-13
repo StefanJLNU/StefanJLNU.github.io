@@ -1,4 +1,27 @@
+@charset "utf-8";
 /*
     Testar något ordentligt här inne
 */
 
+.layout-descript {
+    font-size: 0.5em;
+}
+
+.post.h-entry {
+    background-color: $grey-color-light;
+    border: 2px solid black;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.disqus-content {
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 25px;
+    padding: 8px;
+    margin: 0;
+    
+    p {
+        color: green;
+    }
+}

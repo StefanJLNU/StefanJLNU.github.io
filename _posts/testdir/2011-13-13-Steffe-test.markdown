@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: home
 title:  "Ett stort test från STEFFE!"
 date:   2011-12-12 05:48:55 -0600
 categories: STEFFE cat-Test

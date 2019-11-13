@@ -8,11 +8,30 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
+/**
+  * Super-Wrapper
+  * This fancy stuff makes everything float in the middle!
+  */
+#superwrapper {
+  background-color: $wrapper-background-color;
+  width: 80%;
+  margin: 0 auto;
+  border: 5px solid white;
+
+  .site-header, .site-footer {
+    margin: 0 auto;
+    width: auto;
+  }
+}
+
+
 
 /**
  * Basic styling
  */
 body {
+  background-image: url("../../pics/corred-steel-modded.jpg");
+
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
   background-color: $background-color;
