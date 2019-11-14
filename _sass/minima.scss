@@ -1,13 +1,15 @@
 @charset "utf-8";
 
-// Super Wrapper
+// Background settings
 
 $wrapper-background-color: #fdfdfd !default;
 $background-color:         black !default;
+$header-background-color:  grey;
 
-// Header border variables
+// Custom border variables
 
 $header-border-radius: 40px;
+$title-fake-border: 5px;
 
 // Define defaults for each variable.
 
@@ -16,6 +18,8 @@ $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
+
+$hacker-font: "FreeMono", monospace;
 
 $spacing-unit:     30px !default;
 
