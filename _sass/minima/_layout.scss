@@ -5,7 +5,24 @@
 
 .humans-txt {
   width: auto;
-  
+
+  // Cool FX's
+  a {
+    background-color: black;
+    border: 2px solid $hacker-color-light;
+    border-radius: 10px;
+
+    &:hover {
+      background-color: $hacker-color-light;
+      border-color: white;
+    }
+
+    &:active {
+      position: relative;
+      top: -2px;
+      box-shadow: 10px 10px 10px;
+    }
+  }
 }
 
 /**
