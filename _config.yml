@@ -19,15 +19,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: MIN BÄSTA TITEL EVER
-author: ST*FÄÄE
-email: Steffelol@example.com
+title: Steffo
+author: Stefan Jägstrand
+email: Stefanjagstrand@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Här är en ascool beskrivning över min hemsida etcetc osv. Massa text kan skrivas här.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  koko
+#twitter_username: jekyllrb
+github_username:  StefanJLNU
 favicon-url: "./favicon.ico"
 
 # DISQUS GREJER

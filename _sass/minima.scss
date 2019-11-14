@@ -5,11 +5,13 @@
 $wrapper-background-color: #fdfdfd !default;
 $background-color:         black !default;
 $header-background-color:  grey;
+$footer-background-color:  lighten(grey, 20%);
 
 // Custom border variables
 
 $header-border-radius: 40px;
 $title-fake-border: 5px;
+$superwrapper-border-radius: 50px;
 
 // Define defaults for each variable.
 
@@ -18,8 +20,6 @@ $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
-
-$hacker-font: "FreeMono", monospace;
 
 $spacing-unit:     30px !default;
 
@@ -30,6 +30,7 @@ $grey-color:       grey !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
+$hacker-font: "FreeMono", monospace;
 $hacker-color:     green !default;
 $hacker-color-light:lighten($hacker-color, 40%) !default;
 $hacker-color-dark:darken($hacker-color, 25%) !default;

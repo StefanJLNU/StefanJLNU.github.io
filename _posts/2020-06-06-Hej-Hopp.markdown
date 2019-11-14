@@ -20,4 +20,21 @@ My email is {{ site.email }}
 
 Test: {{ layout.layoutTest }}
 
+{% highlight ruby %}
+def print_hi(name)
+Steffe_hi
+  puts "Hi, #{name}"
+  "Hej hej"
+end
+
+_TEXT_I_GREJER_
+"steffe lol"
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+%Procent
+Tja
+##TjaTja
+###TjaTjaTja
+{% endhighlight %}
+
 ###TEST

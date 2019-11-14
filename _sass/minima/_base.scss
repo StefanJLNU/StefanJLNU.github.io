@@ -19,8 +19,8 @@ dl, dd, ol, ul, figure {
   border: 5px solid green;
   border-right-color: black;
   border-top: 0;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: $superwrapper-border-radius;
+  border-bottom-right-radius: $superwrapper-border-radius;
 
   .site-header, .site-footer {
     margin: 0 auto;

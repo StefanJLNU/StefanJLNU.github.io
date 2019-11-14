@@ -171,8 +171,11 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
+  border-top: 2px solid black;
   padding: $spacing-unit 0;
+  background-color: $footer-background-color;
+  border-bottom-left-radius: $superwrapper-border-radius;
+  border-bottom-right-radius: $superwrapper-border-radius;
 }
 
 .footer-heading {
