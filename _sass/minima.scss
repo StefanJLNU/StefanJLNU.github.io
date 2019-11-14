@@ -1,8 +1,13 @@
 @charset "utf-8";
 
 // Super Wrapper
+
 $wrapper-background-color: #fdfdfd !default;
-$background-color: black !default;
+$background-color:         black !default;
+
+// Header border variables
+
+$header-border-radius: 40px;
 
 // Define defaults for each variable.
 
@@ -17,11 +22,18 @@ $spacing-unit:     30px !default;
 $text-color:       #111 !default;
 $brand-color:      #2a7ae2 !default;
 
-$grey-color:       red !default;
+$grey-color:       grey !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
+$hacker-color:     green !default;
+$hacker-color-light:lighten($hacker-color, 40%) !default;
+$hacker-color-dark:darken($hacker-color, 25%) !default;
+
 $table-text-align: left !default;
+
+// List-related variables
+$post-list-indent: 6px;
 
 // Width of the content area
 $content-width:    800px !default;

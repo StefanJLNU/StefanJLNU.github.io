@@ -15,8 +15,20 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 2px solid $grey-color-light;
+
+  // -- BORDER STUFF --
+
+  border-bottom: 5px solid $hacker-color-dark;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+
+  border-bottom-left-radius: $header-border-radius;
+  border-bottom-right-radius: $header-border-radius;
+
+  box-shadow: 6px 5px 5px darken(darkgrey, 10%);
+
+  // --   --  --    --
+
   min-height: $spacing-unit * 1.865;
 
   height: 100px;
@@ -215,17 +227,47 @@
 
   > li {
     margin-bottom: $spacing-unit;
+    padding-bottom: 4px;
+    border-left: 2px solid black;
   }
 }
 
 .post-meta {
-  font-size: $small-font-size;
+  font-size: $small-font-size * 1.2;
   color: $grey-color;
+  margin-left: $post-list-indent;
+  position: relative;
+  top: -2px;
 }
 
 .post-link {
-  display: block;
+  margin-left: $post-list-indent;
+  display: inline;
   @include relative-font-size(1.5);
+
+  /* Stil för "knapp-utseende" */
+  background-color: lighten($hacker-color, 10%);
+  border: 6px solid black;
+  border-radius: 8px;
+
+  border-top-color: darken($hacker-color-light, 25%);
+  border-left-color: darken($hacker-color-light, 25%);
+  border-right-color: lighten($hacker-color-dark, 10%);
+  border-bottom-color: lighten($hacker-color-dark, 10%);
+  
+  &:hover {
+    background-color: $hacker-color;
+
+    border-top-color: lighten($hacker-color-dark, 10%);
+    border-left-color: lighten($hacker-color-dark, 10%);
+    border-right-color: darken($hacker-color-light, 25%);
+    border-bottom-color: darken($hacker-color-light, 25%);
+  }
+
+  &:active {
+    color:white;
+    background-color: $hacker-color-light;
+  }
 }
 
 
