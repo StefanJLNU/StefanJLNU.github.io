@@ -253,6 +253,7 @@
 }
 
 .post-list-heading {
+  font-family: $hacker-font;
   @include relative-font-size(1.75);
 }
 
@@ -319,6 +320,8 @@
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;
+  font-family: $hacker-font;
+  text-decoration: underline;
 
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);

@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $hacker-color;
+  color: darken($hacker-color, 15%);
   text-decoration: none;
   width: auto;
 
