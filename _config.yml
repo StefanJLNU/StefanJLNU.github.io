@@ -34,6 +34,9 @@ favicon-url: "./favicon.ico"
 disqus:
   shortname: stefanjgstrand
 
+#Google Analytics Stüff
+ga-track-id: UA-152610400-1
+
 
 # Build settings
 theme: minima
