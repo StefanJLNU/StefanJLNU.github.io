@@ -42,6 +42,7 @@ ga-track-id: UA-152610400-1
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag #used to enable favicon
 
 defaults:
   -
