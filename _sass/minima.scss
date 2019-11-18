@@ -65,7 +65,7 @@ $on-laptop:        800px !default;
 
 // Import partials.
 @import
-  "./minima/steffetest",
+  "./minima/_custom-classes",
   "minima/base",
   "minima/layout",
   "minima/syntax-highlighting"
