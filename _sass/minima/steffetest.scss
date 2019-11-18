@@ -4,7 +4,13 @@
 */
 
 .layout-descript {
-    font-size: 0.5em;
+    font-size: 1em;
+    font-family: $hacker-font;
+    text-decoration: underline;
+
+    &:before {
+        content: "Layout:";
+    }
 }
 
 .post.h-entry {
